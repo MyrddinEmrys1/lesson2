@@ -1,0 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Indie+Flower);
+body {
+    background-color: #FFE680;
+		font-family: 'Indie Flower', cursive;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+        background-color: #FF9900;
+    }
+}
+
+div{
+	display: inline-block;
+	padding: 5px;
+	border: 2px dashed #663300;
+	border-radius:	10px;
+	box-shadow: 10px 10px 5px #855C33;
+	margin: 10px;
+}
+h1,h2{
+	text-shadow: 2px 2px #B26B00;
+}

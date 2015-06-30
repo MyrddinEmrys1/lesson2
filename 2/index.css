@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.content {
+  margin: 0px auto;
+  width: 750px; }
+  .content .user {
+    background: #F5F5F5;
+    padding: 19px 33px;
+    margin-top: 20px;
+    border: 1px solid #DCDCDC;
+    border-radius: 5px; }
+    .content .user .icon {
+      display: inline-block; }
+      .content .user .icon .photos {
+        border: 1px solid #DCDCDC;
+        border-radius: 5px;
+        width: 144px;
+        background: #FFFFFF;
+        padding: 0px 1px; }
+      .content .user .icon .flag {
+        border: 1px solid #DCDCDC;
+        border-radius: 5px;
+        position: relative;
+        bottom: 24px;
+        width: 20px;
+        height: 18px;
+        padding: 2px;
+        background: #FFFFFF; }
+      .content .user .icon .rating {
+        padding: 0% 20%;
+        margin-top: -20px; }
+    .content .user .info {
+      display: inline-block;
+      width: 500px;
+      margin-left: 25px;
+      vertical-align: top; }
+      .content .user .info h2 {
+        color: #2FA4E7; }
+      .content .user .info div {
+        color: #7d7d7d;
+        font-size: 15px; }
+        .content .user .info div span {
+          font-weight: bold; }
+
+input[type="checkbox"] {
+  background: url(images/onebit.png) no-repeat;
+  height: 17px;
+  width: 17px;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background-size: 17px;
+  padding: 0px;
+  margin: 0px -2px; }
+
+input[type="checkbox"]:checked {
+  background: url(images/onebit_2.png) no-repeat;
+  background-size: 17px; }
